@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="3509" it="9" lt="0" ct="2" ts="1591086500660" s="true" lb="Login" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="6721" sby="2213" ng="1" na="1">
+  <httpSample t="2760" it="0" lt="2756" ct="2" ts="1591086500664" s="true" lb="/cgi-bin/welcome.pl-11" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1026" sby="417" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/welcome.pl?signOff=true</java.net.URL>
+  </httpSample>
+  <httpSample t="180" it="0" lt="177" ct="0" ts="1591086503426" s="true" lb="/cgi-bin/nav.pl-12" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1757" sby="520" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/nav.pl?in=home</java.net.URL>
+  </httpSample>
+  <httpSample t="273" it="0" lt="270" ct="0" ts="1591086503607" s="true" lb="/cgi-bin/login.pl-13" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1035" sby="658" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/login.pl</java.net.URL>
+  </httpSample>
+  <httpSample t="146" it="0" lt="143" ct="0" ts="1591086503881" s="true" lb="/cgi-bin/login.pl-14" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1154" sby="174" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/login.pl?intro=true</java.net.URL>
+  </httpSample>
+  <httpSample t="150" it="0" lt="146" ct="0" ts="1591086504028" s="true" lb="/cgi-bin/nav.pl-15" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1749" sby="444" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/nav.pl?page=menu&amp;in=home</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="1282" it="4" lt="0" ct="0" ts="1591086504257" s="true" lb="Flight Search" rc="200" rm="Number of samples in transaction : 5, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="12879" sby="2879" ng="1" na="1">
+  <httpSample t="69" it="0" lt="66" ct="0" ts="1591086504257" s="true" lb="/cgi-bin/welcome.pl-16" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="843" sby="458" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/welcome.pl?page=search</java.net.URL>
+  </httpSample>
+  <httpSample t="177" it="0" lt="173" ct="0" ts="1591086504327" s="true" lb="/cgi-bin/nav.pl-17" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1749" sby="461" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/nav.pl?page=menu&amp;in=flights</java.net.URL>
+  </httpSample>
+  <httpSample t="679" it="0" lt="662" ct="0" ts="1591086504505" s="true" lb="/cgi-bin/reservations.pl-18" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="4520" sby="462" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/reservations.pl?page=welcome</java.net.URL>
+  </httpSample>
+  <httpSample t="198" it="0" lt="194" ct="0" ts="1591086505185" s="true" lb="/cgi-bin/reservations.pl-20" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2722" sby="805" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/reservations.pl</java.net.URL>
+  </httpSample>
+  <httpSample t="159" it="0" lt="155" ct="0" ts="1591086505384" s="true" lb="/cgi-bin/reservations.pl-21" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="3045" sby="693" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/reservations.pl</java.net.URL>
+  </httpSample>
+</sample>
+<sample t="155" it="1" lt="0" ct="0" ts="1591086505545" s="true" lb="Reservation" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 0" tn="Thread Group 1-1" dt="" by="2825" sby="884" ng="1" na="1">
+  <httpSample t="155" it="0" lt="152" ct="0" ts="1591086505545" s="true" lb="/cgi-bin/reservations.pl-22" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2825" sby="884" ng="1" na="1">
+    <java.net.URL>http://localhost:1080/cgi-bin/reservations.pl</java.net.URL>
+  </httpSample>
+</sample>
+
+</testResults>
