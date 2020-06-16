@@ -1,0 +1,26 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1592304372195,1708,/-18,200,OK,Thread Group 1-5,text,true,,1320,338,5,5,https://blazedemo.com/,1705,0,967
+1592304371959,1944,/-18,200,OK,Thread Group 1-4,text,true,,1277,338,5,5,https://blazedemo.com/,1940,0,1204
+1592304371755,2148,/-18,200,OK,Thread Group 1-3,text,true,,1269,338,5,5,https://blazedemo.com/,2144,0,1404
+1592304371442,2461,/-18,200,OK,Thread Group 1-2,text,true,,1301,338,5,5,https://blazedemo.com/,2457,0,1718
+1592304371442,2521,/-18,200,OK,Thread Group 1-1,text,true,,1453,338,5,5,https://blazedemo.com/,2520,0,1716
+1592304374205,938,/reserve.php-24,200,OK,Thread Group 1-3,text,true,,1340,517,5,5,https://blazedemo.com/reserve.php,937,0,0
+1592304374257,888,/reserve.php-24,200,OK,Thread Group 1-5,text,true,,1486,517,5,5,https://blazedemo.com/reserve.php,886,0,0
+1592304374311,846,/reserve.php-24,200,OK,Thread Group 1-1,text,true,,1517,517,5,5,https://blazedemo.com/reserve.php,845,0,0
+1592304374198,962,/reserve.php-24,200,OK,Thread Group 1-4,text,true,,1349,517,5,5,https://blazedemo.com/reserve.php,961,0,0
+1592304374176,989,/reserve.php-24,200,OK,Thread Group 1-2,text,true,,1473,517,5,5,https://blazedemo.com/reserve.php,988,0,0
+1592304375389,546,/purchase.php-25,200,OK,Thread Group 1-2,text,true,,1744,572,5,5,https://blazedemo.com/purchase.php,546,0,0
+1592304375423,532,/purchase.php-25,200,OK,Thread Group 1-3,text,true,,1658,572,5,5,https://blazedemo.com/purchase.php,520,0,0
+1592304375467,536,/purchase.php-25,200,OK,Thread Group 1-1,text,true,,1657,572,5,5,https://blazedemo.com/purchase.php,535,0,0
+1592304375491,547,/purchase.php-25,200,OK,Thread Group 1-5,text,true,,1596,572,5,5,https://blazedemo.com/purchase.php,546,0,0
+1592304375517,545,/purchase.php-25,200,OK,Thread Group 1-4,text,true,,1684,572,5,5,https://blazedemo.com/purchase.php,544,0,0
+1592304376212,493,/confirmation.php-26,200,OK,Thread Group 1-2,text,true,,1392,662,5,5,https://blazedemo.com/confirmation.php,492,0,0
+1592304375166,1039,Reservation,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,3136,1234,5,5,null,1038,500,0
+1592304376246,471,/confirmation.php-26,200,OK,Thread Group 1-3,text,true,,1404,662,4,4,https://blazedemo.com/confirmation.php,471,0,0
+1592304375145,1003,Reservation,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,,3062,1234,4,4,null,991,569,0
+1592304376359,495,/confirmation.php-26,200,OK,Thread Group 1-4,text,true,,1541,662,3,3,https://blazedemo.com/confirmation.php,492,0,0
+1592304375161,1040,Reservation,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,,3225,1234,3,3,null,1036,653,0
+1592304376380,546,/confirmation.php-26,200,OK,Thread Group 1-5,text,true,,1476,662,2,2,https://blazedemo.com/confirmation.php,546,0,0
+1592304375146,1093,Reservation,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,,3072,1234,2,2,null,1092,687,0
+1592304376362,677,/confirmation.php-26,200,OK,Thread Group 1-1,text,true,,1528,662,1,1,https://blazedemo.com/confirmation.php,677,0,0
+1592304375159,1213,Reservation,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3185,1234,1,1,null,1212,667,0
